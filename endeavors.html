@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script>
+
+            function greet()
+            {
+                let x = document.querySelector('#name').value;
+                if (x === "")
+                {
+                    console.log('What do you hope to do in the future?');
+                    return;
+                }
+                alert('Good Luck ' + document.querySelector('#name').value + '!');
+            }
+
+        </script>
+        <title>Future Endeavors</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles2.css"/>
+
+    </head>
+    <style>
+        body {
+            background-color: olive;
+        }
+    </style>
+    <body>
+        <form onsubmit="greet(); return false;">
+            <input autocomplete="off" autofocus id="name" placeholder="My big plan is... (use -ing)" type="text">
+            <input type="submit">
+        </form>
+        <h1 id="title" class="color-title"> My Future Endeavors</h1>
+                        <p id="subtitle" class="color">I like to hike and play sports and not much else.</p>
+                        <p class='color-size'>Because I am so in love with my hobbies, much of what I would like to do in the future revolves around those things. For example, as mentioned in the "About" section, I really enjoy hiking large mountains, so one of my goals this summer
+                        is to finish hiking all the 4,000 footers in New Hampshire. In the Fall, when Football rolls around, My goal is to be player of the year, even though that is very ambitious and difficult to do. If I don't achieve that, then a 1st Team All-State selection would do. As a general statement for all three of the sports I play, my biggest goal is to win
+                        a state championship. We have a good shot right now with our current baseball team, and I am very fortunate that all of the teams I will play on next year will be able to seriously compete for a chip. Let me know one of you goals in the form above!</p>
+    </body>
+</html>

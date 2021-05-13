@@ -1,0 +1,40 @@
+.middle {
+    text-align: center;
+    font-size: 2rem;
+}
+.size {
+    font-size: 1.2rem;
+}
+.letf {
+    text-align: left;
+    font-size: 1.2rem;
+    color: black;
+}
+.color {
+    color: white;
+     text-align: center;
+}
+.color-size {
+    color: white;
+    text-align: center;
+    font-size:1.2rem;
+}
+.color-title {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+.white {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.acc-middle {
+    text-align: center;
+    font-size: 1.4rem;
+}
+.gold{
+    color: gold;
+    text-decoration: underline;
+    text-decoration-color: maroon;
+}
